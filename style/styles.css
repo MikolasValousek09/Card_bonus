@@ -1,0 +1,74 @@
+@layer reset, base, components;
+
+@import url('normalize.css') layer(reset);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap') layer(base);
+
+@layer reset {
+    :root {
+        --title-color: rgb(231, 63, 144);
+        --background-color: rgb(251, 228, 241);
+        --text: rgb(167, 86, 120);
+        --important-colr:rgb(255, 253, 254 );
+    }
+    .main {        
+        display: flow-root;
+    }
+}
+
+@layer base {
+    html {
+        font-family: 'Inter', sans-serif;
+        color: var(--text);
+    }
+    .card {
+        max-width: 21em;
+        margin: 1rem; /* without scaling */
+        padding: 1em;
+        border-style: solid;
+        border-color: var(--border);
+        border-radius: 1rem;
+        border-width: 1px;
+    }
+}
+
+@layer components {
+
+
+    .card {
+        border: ;
+        border-radius: ;
+        /*  color:var(--background-color) ;  */
+    }
+
+
+    .card__title {
+        font-weight: 700;
+        font-size: 2em ;
+        color: var(--title-color);
+        margin-left: 3em   ; 
+
+    }
+
+
+    .title__decoration {
+        text-decoration: underline var(--title-color)
+        text-decoration: 
+
+
+    }
+
+
+    .text__text {
+        font-size: ;
+        font-weight: ;
+        color: var(--text);
+
+    }
+
+
+
+
+}
+
+
+
