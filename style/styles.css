@@ -50,18 +50,11 @@
     }
 
 
-    .title__decoration {
-        text-decoration: underline var(--title-color)
-        text-decoration: 
-
-
-    }
-
-
     .text__text {
         font-size: ;
         font-weight: ;
         color: var(--text);
+        margin-left: 1em;
 
     }
 
